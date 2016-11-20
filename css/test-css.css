@@ -1,0 +1,125 @@
+/* 宽度 */
+.w100 {
+	width: 100px;
+}
+
+.w200 {
+	width: 200px;
+}
+
+.w500 {
+	width: 500px;
+}
+
+.w10p {
+	width: 10%;
+}
+
+.w50p {
+	width: 50%;
+}
+
+.w100p {
+	width: 100%;
+}
+
+/* 高度 */
+.h100 {
+	height: 100px;
+}
+
+.h200 {
+	height: 200px;
+}
+
+.h500 {
+	height: 500px;
+}
+
+.h10p {
+	height: 10%;
+}
+
+.h20p {
+	height: 20%;
+}
+
+.h50p {
+	height: 50%;
+}
+
+.h100p {
+	height: 100%;
+}
+/* 边框颜色 */
+.bdRed {
+	border: 1px solid #f00;
+}
+
+.bdGreen {
+	border: 1px solid #0f0;
+}
+
+.bdBlue {
+	border: 1px solid #00f;
+}
+
+.bdGray {
+	border: 1px solid gray;
+}
+
+.bdPink {
+	border: 1px solid pink;
+}
+
+.bdYellow {
+	border: 1px solid #ff0;
+}
+
+.bdPurple {
+	border: 1px solid purple;
+}
+/* 背景颜色 */
+.bgRed {
+	background: #f00;
+}
+
+.bgGreen {
+	background: #0f0;
+}
+
+.bgBlue {
+	background: #00f;
+}
+
+.bgGray {
+	background: gray;
+}
+
+.bgPink {
+	background: pink;
+}
+
+.bgYellow {
+	background: #ff0;
+}
+
+.bgPurple {
+	background: purple;
+}
+
+/* 特效 */
+/* 透明度 */
+.op0 {
+	opacity: 0;
+}
+
+.op50p {
+	opacity: 0.5;
+}
+
+.op100p {
+	opacity: 1;
+}
+
+/*CSS3变形 暂时不写*/

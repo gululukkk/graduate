@@ -1,0 +1,198 @@
+/* 自定义字体 开始 */
+
+@font-face {
+	font-family: "wumiao";
+	src: url("../font/FZMWFont.ttf");
+}
+
+
+/* 自定义字体 结束 */
+
+
+/* 初始化 开始 */
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	background: #F5F5F5;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/* 初始化 结束 */
+
+
+/* 全局通用样式，前缀为g 开始 */
+
+
+/* 布局样式 开始 */
+
+.g-ofh {
+	overflow: hidden;
+}
+
+.g-fll {
+	float: left;
+}
+
+.g-por {
+	position: relative;
+}
+
+.g-poa {
+	position: absolute;
+}
+
+
+/* 布局样式 结束 */
+
+
+/* 元素盒模型属性 开始 */
+
+.g-w100 {
+	width: 100px;
+}
+
+.g-ma {
+	margin: 0 auto;
+}
+
+
+/* 元素盒模型属性 结束 */
+
+
+/* 背景属性 开始*/
+
+.g-bgfff {
+	background: #fff;
+}
+/* 背景属性 结束*/
+
+
+/* 文本属性 开始 */
+.g-c000 {
+	color: #000;
+}
+
+.g-cfff {
+	color: #fff;
+}
+
+.g-tc {
+	text-align: center;
+}
+
+
+/* 文本属性 结束 */
+
+
+/* 全局通用样式，前缀为g 结束 */
+
+
+/* header开始 */
+
+#header {
+	height: 75px;
+	padding-top: 30px;
+	margin-top: 20px;
+	background: #000;
+}
+
+.center {
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+/* header结束 */
+
+
+/* 顶导航 开始*/
+
+#topnav {
+	height: 46px;
+	border-top: 5px solid #1a1a1a;
+	background: #333;
+	font: 20px "wumiao";
+}
+
+#topnav .mainnav {
+	z-index:1500;
+	width: 600px;
+	padding-left: 30%;
+}
+
+#topnav .item {
+	float: left;
+	z-index: 0;
+	color: #fff;
+	transition: color 2s ease;
+}
+
+#topnav .mainnav .item {
+	box-sizing: border-box;
+	padding: 12px 0;
+	width: 120px;
+	height: 46px;
+}
+
+#topnav .slidebar {
+	z-index:-1;
+	width:120px;
+	height: 46px;
+	background: #1a1a1a;
+}
+
+#topnav .item:hover {
+	color: #f00;
+}
+
+#topnav .subnav {
+	width: 100%;
+	padding-left: 30%;
+	background: #1A1A1A;
+}
+
+#topnav .subnav .item {
+	height: 1rem;
+	padding: 15px 25px;
+}
+
+#topnav .subnav .item:hover {
+	background: #333;
+}
+
+
+/* 顶导航 结束*/
+
+/* 页面主体 开始 */
+#main {
+	width: 80%;
+	min-width:1080px;
+	margin-top: 5px;
+	border: 1px solid #f00;
+}
+
+#main .title {
+	font: 1.5rem/3rem "微软雅黑";
+}
+
+#main .title {
+	padding-left: 20px;
+}
+
+#main .title .text {
+	margin-left: 20px;
+}
+/* 页面主体 结束 */

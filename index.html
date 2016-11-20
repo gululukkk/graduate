@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<link rel="stylesheet" href="extension_style/jquery.slideBox.css">
+	<link rel="stylesheet" href="css/h_style.css">
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="extension_script/jquery.slideBox.js"></script>
+</head>
+
+<body>
+	<!-- header 开始 -->
+	<header id="header">
+		<div class="center">
+			<a href="javascript:void(0)">
+				<img src="img/logo.png" alt="">
+			</a>
+		</div>
+	</header>
+	<!-- header 结束 -->
+
+	<!-- 顶导航 开始-->
+	<nav id="topnav">
+		<div class="mainnav g-ofh g-por g-tc">
+			<a href="javascript:void(0)" class="item">首页</a>
+			<a href="javascript:void(0)" class="item">教程集</a>
+			<a href="javascript:void(0)" class="item">素材库</a>
+			<a href="javascript:void(0)" class="item">灵感池</a>
+			<a href="javascript:void(0)" class="item">学摄影</a>
+			<div class="slidebar g-poa">
+			</div>
+		</div>
+		<div class="subnav g-ofh g-poa">
+			<a href="javascript:void(0)" class="item">Lorem ipsum dolor</a>
+			<a href="javascript:void(0)" class="item">sit amet,</a>
+			<a href="javascript:void(0)" class="item">consectetur</a>
+			<a href="javascript:void(0)" class="item">adipisicing.</a>
+		</div>
+		<div class="subnav g-ofh g-poa">
+			<a href="javascript:void(0)" class="item">Lorem</a>
+			<a href="javascript:void(0)" class="item">ipsum dolor sit amet, cons</a>
+			<a href="javascript:void(0)" class="item">ectetur adipisicing elit. Vel ex omnis possimus a</a>
+			<a href="javascript:void(0)" class="item">speriores, harum in earum quasi consectetur</a>
+			<a href="javascript:void(0)" class="item">voluptatem.</a>
+		</div>
+		<div class="subnav g-ofh g-poa">
+			<a href="javascript:void(0)" class="item">psum dol</a><a href="javascript:void(0)" class="item">or.</a>
+		</div>
+		<div class="subnav g-ofh g-poa">
+			<a href="javascript:void(0)" class="item">Lorem.</a>
+		</div>
+		<div class="subnav g-ofh g-poa">
+			<a href="javascript:void(0)" class="item">psum dol</a><a href="javascript:void(0)" class="item">or.</a>
+		</div>
+	</nav>
+	<!-- 顶导航 结束-->
+
+	<!-- 页面主体 开始 -->
+	<div id="main" class="g-ma g-c000">
+		<div class="title g-bgfff">
+			<img src="img/icon_home.gif" alt="" class="icon">
+			<span class="text">欢迎来到PS家园学习PS教程和下载PS素材!</span>
+		</div>
+		<!-- 图片轮播（插件）开始 -->
+		<div id="picture-show" class="slideBox">
+			<ul class="items">
+				<li>
+					<a href="http://www.jq22.com/" title="这里是测试标题一"><img src="img/autoplay1.jpg"></a>
+				</li>
+				<li>
+					<a href="http://www.jq22.com/" title="这里是测试标题二"><img src="img/autoplay2.jpg"></a>
+				</li>
+				<li>
+					<a href="http://www.jq22.com/" title="这里是测试标题三"><img src="img/autoplay3.jpg"></a>
+				</li>
+				<li>
+					<a href="http://www.jq22.com/" title="这里是测试标题四"><img src="img/autoplay4.jpg"></a>
+				</li>
+				<li>
+					<a href="http://www.jq22.com/" title="这里是测试标题五"><img src="img/1.jpg"></a>
+				</li>
+			</ul>
+		</div>
+		<!-- 图片轮播（插件）结束 -->
+	</div>
+	<!-- 页面主体 结束 -->
+	<script src="js/h_script.js"></script>
+	<script>
+		$('#picture-show').slideBox();
+	</script>
+</body>
+
+</html>
