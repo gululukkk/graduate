@@ -46,4 +46,8 @@ var H = {
 };
 H.slidebarEffect.run();
 
-$('#picture-show').slideBox();
+$('#picture-show').slideBox({
+	duration:0.3,
+	delay:5,
+	clickBarRadius:10
+});

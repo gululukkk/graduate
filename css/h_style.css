@@ -20,7 +20,10 @@ body {
 }
 
 html,
-body {
+body,
+ul,
+dl,
+dd{
 	margin: 0;
 	padding: 0;
 }
@@ -195,4 +198,53 @@ a {
 #main .title .text {
 	margin-left: 20px;
 }
+
+/* 左侧导航 开始 */
+.g-slidebar {
+	float: left;
+	margin: 0 20px 0 0;
+	padding:0 8px;
+	border-top: 4px solid #000;
+	background: #fff;
+}
+
+.g-slidebar .slidebar-title {
+	padding-left: 20px;
+}
+
+.g-slidebar dd {
+	padding: 0 20px;
+	margin-bottom: -1px;
+	border-bottom: 1px dashed gray;
+	line-height: 2.5;
+}
+
+.g-slidebar a {
+	color:#4f4f4f;
+	transition:color 300ms linear;
+}
+
+.g-slidebar a:hover {
+	color: #ff6465;
+}
+
+.g-slidebar img {
+	margin-right: 20px;
+	vertical-align:middle;
+}
+
+
+/* 左侧导航 结束 */
+
+/* 图片轮播 开始 */
+#picture-show {
+	float: left;
+}
+
+#picture-show img {
+	width: 670px;
+	height: 304px;
+}
+/* 图片轮播 结束 */
+
 /* 页面主体 结束 */
