@@ -1,0 +1,29 @@
+
+float与负margin哪个好？
+line-height使元素居中好还是padding使元素居中好
+z-index与float;
+padding与内联元素的高度与jq的css
+float与内联元素的padding-left
+translate的堆叠顺序
+translateZ相同，但是大小不同
+table-cell自适应
+正则表达式中 . 不匹配什么
+table-cell与img
+table-cell中什么增加了宽度
+replace取得匹配的文字
+exec的lastIndex
+
+学linux的原因
+
+2. `window`鼠标流的操作方式实在是太繁琐了。(谋杀我的时间和精力）
+
+3. cmd看起来不伦不类，觉得要学命令行和脚本还得`linux`。
+
+4. 顺便把vim也学了。
+
+从网上的文章我大概有个对于linux的印象：
+* 命令行
+* 键盘流
+* 码农神器vim
+
+只安装过一个deepin，只玩了几天，就卸载了。

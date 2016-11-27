@@ -28,6 +28,9 @@ dd{
 	padding: 0;
 }
 
+li {
+	list-style-type: none;
+}
 a {
 	text-decoration: none;
 }
@@ -182,9 +185,12 @@ a {
 /* 页面主体 开始 */
 #main {
 	overflow:hidden;
+	box-sizing:border-box;
 	width: 80%;
 	min-width:1080px;
+	padding:10px 10%;
 	margin-top: 40px;
+	background: #fff;
 }
 
 #main .title {
@@ -199,66 +205,42 @@ a {
 	margin-left: 20px;
 }
 
-/* 侧导航 开始 */
-
-/* for left-slidebar & right-slidebar 开始 */
-.g-slidebar {
-	padding:0 8px;
-	border-top: 4px solid #000;
-	background: #fff;
+/* 文章 开始 */
+#article {
+	text-align:center;
 }
 
-.g-slidebar .slidebar-title {
-	padding-left: 20px;
+#article .title {
+	font-size: 3rem;
 }
 
-.g-slidebar dd {
-	padding: 0 20px;
-	margin-bottom: -1px;
-	border-bottom: 1px dashed gray;
-	line-height: 2.5;
+#article .info {
+	color: #666;
+	font: 1.5em Microsoft YaHei;
+	overflow: hidden;
 }
 
-.g-slidebar a {
-	color:#4f4f4f;
-	transition:color 300ms linear;
-}
-
-.g-slidebar a:hover {
-	color: #ff6465;
-}
-
-.g-slidebar img {
-	margin-right: 20px;
-	vertical-align:middle;
-}
-/* for left-slidebar & right-slidebar 结束 */
-
-/* 左右侧导航 开始*/
-#left-slidebar {
+#article .info-item {
 	float: left;
-	margin:0 20px 0 0;
+	width: 33%;
 }
 
-#right-slidebar {
-	float: right;
+#article .inline-icon {
+	vertical-align: middle;
+	margin-right: 4px;
 }
 
-/* 左右侧导航 结束 */
-
-/* 侧导航 结束 */
-
-/* 图片轮播 开始 */
-#picture-show {
-	float: left;
+#article .content {
+	text-align: left;
+	font: 2em Microsoft YaHei;
 }
 
-#picture-show img {
-	width: 590px;
-	height: 304px;
+#article .pic-box {
+	text-align: center;
+	margin: 3em 0;
 }
-/* 图片轮播 结束 */
 
+/* 文章 结束 */
 /* 页面主体 结束 */
 
 /* 页面尾部 开始 */
