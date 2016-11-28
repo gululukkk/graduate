@@ -182,8 +182,9 @@ a {
 /* 页面主体 开始 */
 #main {
 	overflow:hidden;
+    position: relative;
 	width: 80%;
-	min-width:1080px;
+    min-width:1138px;
 	margin-top: 40px;
 }
 
@@ -250,7 +251,9 @@ a {
 
 /* 图片轮播 开始 */
 #picture-show {
-	float: left;
+	position: absolute;
+    left: 50%;
+    margin-left: -295px;
 }
 
 #picture-show img {
