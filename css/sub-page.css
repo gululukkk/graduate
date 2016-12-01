@@ -189,8 +189,10 @@ a {
 	width: 80%;
 	min-width:1080px;
 	padding:10px 10%;
+	margin: auto;
 	margin-top: 40px;
 	background: #fff;
+	color: #000;
 }
 
 #main .title {

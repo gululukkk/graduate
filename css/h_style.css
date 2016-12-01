@@ -185,7 +185,9 @@ a {
     position: relative;
 	width: 80%;
     min-width:1138px;
+	margin: auto;
 	margin-top: 40px;
+	color: #000;
 }
 
 #main .title {
