@@ -4,7 +4,6 @@ var H = {
 		var $slideBar = $('#topnav .mainnav .slidebar');
 		var $navWraper = $('#topnav .mainnav');
 		var eventType = 'mouseover';
-		var slideBarInitalPosition = $slideBar.position();
 		var isReset = true;
 		
 		var getElemPosition = function($elem) {
@@ -35,6 +34,8 @@ var H = {
 				});
 				if (isReset) {
 					$navWraper.parent().on('mouseleave',function() {
+						var slideBarInitalPosition = $navWraper.find('.item').eq(0).position();
+						console.log(slideBarInitalPosition);
 						$slideBar.animate(slideBarInitalPosition);
 						toggleShowStatus($subNav,false);
 					});
